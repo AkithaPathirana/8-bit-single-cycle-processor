@@ -1,0 +1,42 @@
+$date
+	Sun Jan 30 19:19:46 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 3 ! EE [2:0] $end
+$var reg 3 " AA [2:0] $end
+$var reg 5 # BB [4:0] $end
+$var reg 5 $ CC [4:0] $end
+$var reg 5 % DD [4:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#1
+b1010 $
+#2
+b1 #
+b1 !
+b1 "
+#3
+b1011 %
+#7
+b10 $
+#8
+b11111 #
+b111 !
+b111 "
+#9
+b1 %
+#13

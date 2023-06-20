@@ -1,0 +1,6 @@
+loadi 4 0x05
+loadi 2 0x05
+beq 0x01 4 2
+add 6 4 2
+mov 0 6
+loadi 1 0x01
